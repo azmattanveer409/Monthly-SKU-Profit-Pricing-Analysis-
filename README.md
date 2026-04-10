@@ -33,6 +33,9 @@ Key columns used in analysis:
 * Price Consistency
 * Price Band (Low / Medium / High)
 
+📌 **Dataset Source:**
+Dataset sourced from internal e-commerce SKU pricing records (May 2022 transactional data).
+
 ---
 
 ## ⚙️ Tools & Technologies
@@ -107,70 +110,72 @@ Key columns used in analysis:
 
 ---
 
-## 📊 Key Insights
+## 📊 Power BI Dashboard Preview
+
+Below is the interactive dashboard built in Power BI:
+
+📌 Add your screenshots here:
+
+* KPI View
+* Category Profit Analysis
+* SKU Performance Breakdown
+* Price Band Distribution
+
+📁 Suggested image structure:
+
+```
+/images/dashboard_1.png
+/images/dashboard_2.png
+/images/dashboard_3.png
+/images/dashboard_4.png
+```
 
 ---
 
+## 📊 Key Insights
+
 1. **Category Profitability** → Gowns generate the highest margins, while Tops show weaker profitability.
-2. **Price Band Concentration** → Over 90% of SKUs fall in the Medium price band, indicating strong mid-market focus.
-3. **Profit vs MRP Relationship** → Strong positive correlation; higher MRP directly drives higher profit.
-4. **Top Performing SKUs** → A few SKUs (e.g., OS1109, OS1056 series) dominate total profitability.
-5. **SKU Concentration Risk** → Profit is concentrated in a small subset of SKUs despite large catalog size.
-6. **Data Quality Issues** → Inconsistent category labels and missing values reduce analytical accuracy.
+2. **Price Band Concentration** → Over 90% of SKUs fall in the Medium price band.
+3. **Profit vs MRP Relationship** → Strong positive correlation between MRP and profit.
+4. **Top Performing SKUs** → Few SKUs (e.g., OS1109, OS1056) dominate total profitability.
+5. **SKU Concentration Risk** → Profit is concentrated in a small subset of SKUs.
+6. **Data Quality Issues** → Inconsistent category labels and missing values reduce accuracy.
 
 ---
 
 ## 💡 Recommendations
 
----
-
-1. Scale **high-performing categories (Gowns)** and replicate successful SKUs.
-2. Optimize pricing strategy within the **Medium price band** (largest segment).
-3. Introduce premium positioning for high-margin SKUs.
-4. Clean and standardize category & pricing data for better decision-making.
-5. Reduce low-performing SKUs to improve catalog efficiency.
-6. Implement pricing dashboards with real-time margin tracking.
-7. Monitor cross-platform pricing inconsistencies to improve competitiveness.
+1. Scale **high-performing categories (Gowns)** and replicate successful SKUs
+2. Optimize pricing strategy within the **Medium price band**
+3. Introduce premium pricing for high-margin SKUs
+4. Clean and standardize category & pricing data
+5. Reduce low-performing SKUs to improve efficiency
+6. Monitor cross-platform pricing inconsistencies
+7. Implement margin tracking dashboards
 
 ---
 
-## 📁 Project Structure
+## 📓 Notebook
 
-```
-├── data/
-│   └── May-2022.csv
-├── notebooks/
-│   └── sku_analysis.ipynb
-├── outputs/
-│   ├── charts/
-│   └── cleaned_data.xlsx
-├── powerbi/
-│   └── dashboard.pbix
-├── README.md
-```
-
----
-
-## 📊 Expected Outcome
-
-* Improved pricing strategy across SKUs
-* Identification of high-margin product segments
-* Better inventory and catalog optimization
-* Data-driven pricing decisions across platforms
-* Interactive dashboard for business stakeholders
+📌 Python Notebook:
+[View Analysis](notebooks/sku_analysis.ipynb)
 
 ---
 
 ## 🚀 Future Improvements
 
-* Add machine learning model for **profit prediction per SKU**
+* Add ML model for SKU profit prediction
 * Automate pricing anomaly detection
-* Deploy Power BI dashboard online (Power BI Service)
+* Deploy Power BI dashboard on cloud (Power BI Service)
 * Integrate real-time sales data
 * Build Streamlit pricing optimization app
 
 ---
 
-## 📊 Final Insights Summary
+## 📊 Key Business Impact
 
-This project demonstrates a complete **data analytics pipeline from raw SKU pricing data to business intelligence dashboards**, enabling actionable insights for pricing optimization, product strategy, and profitability enhancement.
+This analysis helps optimize pricing strategy by identifying high-margin SKUs and reducing low-performing product clutter.
+
+---
+
+# 🚀 DONE
