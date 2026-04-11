@@ -124,7 +124,7 @@ Below is the interactive dashboard built in Power BI:
 ## 📊 Visualizations
 
 ### Churn Distribution
-![Churn](outputs/plots/churn_distribution.png)
+![Churn](https://github.com/azmattanveer409/Monthly-SKU-Profit-Pricing-Analysis-/blob/794db04808ba37143780d2c1aeb35ec41f313ad7/Screenshot%20(30).png)
 
 /images/dashboard_2.png
 /images/dashboard_3.png
