@@ -1,7 +1,5 @@
 # 📊 SKU Profit & Pricing Analytics Dashboard (Excel | Python | Power BI)
 
----
-
 ## 🚀 Project Overview
 
 This project performs **SKU-level pricing and profitability analysis** on an e-commerce dataset to optimize pricing strategy, improve margin efficiency, and identify high-performing products.
@@ -123,8 +121,11 @@ Below is the interactive dashboard built in Power BI:
 
 📁 Suggested image structure:
 
-```
-/images/dashboard_1.png
+## 📊 Visualizations
+
+### Churn Distribution
+![Churn](outputs/plots/churn_distribution.png)
+
 /images/dashboard_2.png
 /images/dashboard_3.png
 /images/dashboard_4.png
