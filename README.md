@@ -101,10 +101,11 @@ Dataset sourced from internal e-commerce SKU pricing records (May 2022 transacti
 ### 📊 Visuals:
 
 * Profit by Category (Bar Chart)
-* Profit vs Weight (Scatter Plot)
+* Profit vs Weight by Value Category (Scatter Plot)
+* SKU Count by Price Consistency (Pie Chart)
+* Profit Trend by Weight (line Chart)
 * SKU Distribution by Price Band (Donut Chart)
-* Profit Contribution by SKU (Bar Chart)
-* Profit Trend Analysis (Line Chart)
+* Profit Contribution by SKU (Stacked Area Chart)
 
 ---
 
