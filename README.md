@@ -112,26 +112,14 @@ Dataset sourced from internal e-commerce SKU pricing records (May 2022 transacti
 
 Below is the interactive dashboard built in Power BI:
 
-📌 Add your screenshots here:
 
-* KPI View
-* Category Profit Analysis
-* SKU Performance Breakdown
-* Price Band Distribution
+## 📊 Dashboard screenshot
 
-📁 Suggested image structure:
+This dashboard shows SKU-level profitability, pricing bands, and category performance insights.
 
-## 📊 Visualizations
+![SKU Dashboard](https://github.com/azmattanveer409/Monthly-SKU-Profit-Pricing-Analysis-/blob/794db04808ba37143780d2c1aeb35ec41f313ad7/Screenshot%20(30).png)
 
-### Churn Distribution
-![Churn](https://github.com/azmattanveer409/Monthly-SKU-Profit-Pricing-Analysis-/blob/794db04808ba37143780d2c1aeb35ec41f313ad7/Screenshot%20(30).png)
 
-/images/dashboard_2.png
-/images/dashboard_3.png
-/images/dashboard_4.png
-```
-
----
 
 ## 📊 Key Insights
 
@@ -156,27 +144,11 @@ Below is the interactive dashboard built in Power BI:
 
 ---
 
-## 📓 Notebook
-
-📌 Python Notebook:
-[View Analysis](notebooks/sku_analysis.ipynb)
-
----
-
-## 🚀 Future Improvements
-
-* Add ML model for SKU profit prediction
-* Automate pricing anomaly detection
-* Deploy Power BI dashboard on cloud (Power BI Service)
-* Integrate real-time sales data
-* Build Streamlit pricing optimization app
-
----
-
 ## 📊 Key Business Impact
 
 This analysis helps optimize pricing strategy by identifying high-margin SKUs and reducing low-performing product clutter.
 
----
+## 🚀 Future Improvements
+Future work includes automating pricing anomaly detection and enhancing the dashboard with Power BI Service for real-time insights and scalable reporting.
 
-# 🚀 DONE
+# ✔ DONE
